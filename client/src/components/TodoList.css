@@ -1,0 +1,113 @@
+/* Todo list container */
+.todo-list ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Each task card */
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.task:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Task text */
+.task-text {
+  flex: 1;
+}
+
+/* Icon buttons */
+.task-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.icon {
+  font-size: 26px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.edit-icon {
+  color: #007bff;
+}
+
+.edit-icon:hover {
+  transform: scale(1.2);
+  color: #0056b3;
+}
+
+.delete-icon {
+  color: #ff4757;
+}
+
+.delete-icon:hover {
+  transform: scale(1.2);
+  color: #d63031;
+}
+
+/* Edit mode */
+.edit-box {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.edit-input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+  outline: none;
+}
+
+.edit-input:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 8px rgba(108, 99, 255, 0.4);
+}
+
+/* Buttons */
+.save-btn, .cancel-btn {
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.save-btn {
+  background: #28a745;
+  color: #fff;
+}
+
+.save-btn:hover {
+  background: #218838;
+}
+
+.cancel-btn {
+  background: #dc3545;
+  color: #fff;
+}
+
+.cancel-btn:hover {
+  background: #c82333;
+}
