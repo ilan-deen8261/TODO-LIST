@@ -18,7 +18,7 @@ const Addtodo = () => {
     }
 
     try {
-      const response = await axios.post("http://localhost:5000/todolist/", {
+      const response = await axios.post("https://to-do-list-8wtb.onrender.com/todolist/", {
         message: message,
       });
 
