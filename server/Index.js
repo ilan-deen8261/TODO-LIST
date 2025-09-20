@@ -6,7 +6,7 @@ const todoRouter = require('./Routes/todoRoute');
 const cors = require('cors')
 
 const app = express()
-const PORT = process.env.PORT;
+const port = process.env.PORT;
 
 // json : javascript object notation
 // used to transfer the data
