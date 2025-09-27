@@ -30,7 +30,7 @@
 /* Task text */
 .task-text {
   flex: 1;
-  color: #ffffff; /* ensures text is readable over bg */
+  color: #000000; /* ensures text is readable over bg */
 }
 
 /* Icon buttons */
