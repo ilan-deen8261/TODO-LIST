@@ -7,7 +7,7 @@
 
 /* Page background */
 body {
-  background-image: url('/clipboard-christmas-decorations-wooden-table.jpg');
+  background-image: url('../public/clipboard-christmas-decorations-wooden-table.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;  /* <-- semicolon added */
