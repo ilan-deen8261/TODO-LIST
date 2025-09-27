@@ -1,48 +1,48 @@
-/* Addtodo container */
+/* Container for AddTodo */
 .addtodo-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
-  margin-top: 20px;
+  gap: 16px;
+  margin-top: 24px;
   flex-wrap: wrap;
 }
 
-/* Input styling */
+/* Input field */
 .todo-input {
   height: 55px;
   width: 340px;
+  padding: 0 18px;
   border-radius: 12px;
   border: 2px solid #ccc;
-  padding: 0 18px;
   font-size: 18px;
   outline: none;
-  transition: 0.3s ease;
   background-color: #fff;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .todo-input:focus {
   border-color: #6c63ff;
-  box-shadow: 0 0 12px rgba(108, 99, 255, 0.6);
+  box-shadow: 0 0 8px rgba(108, 99, 255, 0.4);
 }
 
-/* Button styling */
+/* Add button */
 .add-btn {
-  background: linear-gradient(135deg, #6c63ff, #48c6ef);
-  color: #fff;
   width: 120px;
   height: 55px;
-  border-radius: 12px;
   border: none;
-  cursor: pointer;
+  border-radius: 12px;
+  background-color: #6c63ff; /* solid color */
+  color: #fff;
   font-size: 18px;
   font-weight: bold;
-  transition: 0.3s ease;
+  cursor: pointer;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .add-btn:hover {
-  background: linear-gradient(135deg, #48c6ef, #6c63ff);
-  transform: scale(1.07);
+  background-color: #5a54d1; /* slightly darker on hover */
+  transform: scale(1.05);
 }
