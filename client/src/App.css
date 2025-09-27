@@ -11,7 +11,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;  /* <-- semicolon added */
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Fira Code, Consolas, 'Courier New', monospace,";
   color: #333;
   min-height: 100vh;
   display: flex;
